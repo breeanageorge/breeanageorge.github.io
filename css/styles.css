@@ -32,5 +32,19 @@
   left:0;
   background-color: #f2f2f5;
   z-index:1
+}
 
+.project-page-header-text{
+  position:absolute;
+  z-index:10;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+  text-align:center;
+  color: black;
+  font-weight:900;
+  font-size:5em;
+  text-transform:uppercase;
+  letter-spacing:0.05em;
+  line-height:0.9em
 }
